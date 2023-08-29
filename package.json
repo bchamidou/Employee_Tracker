@@ -1,0 +1,30 @@
+{
+  "name": "employee_tracker",
+  "version": "1.0.0",
+  "description": "This folder content module to create content management systems (CMS) interfaces that allow non-developers to easily view and interact with information stored in databases. This assignment use build command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "inquirer",
+    "mysql"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bchamidou/Employee_Tracker.git"
+  },
+  "author": "Cheik H BAGAGNAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bchamidou/Employee_Tracker/issues"
+  },
+  "homepage": "https://github.com/bchamidou/Employee_Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^3.6.0",
+    "validator": "^13.11.0"
+  }
+}
