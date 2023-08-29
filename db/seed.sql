@@ -19,15 +19,22 @@ VALUES
   ('Salesperson', 85000, 3),
   ('Accountant', 125000, 4),
   ('Lawyer', 150000, 5),
-  ('Audit', 120000, 6);
+  ('Auditor', 120000, 6);
 
 
 -- Inserts employee information into employee table
 INSERT INTO employee
   (first_name, last_name, role_id, manager_id)
 VALUES
-  ('Yves', 'Lapin', 1, 4),
+  ('Yves', 'Lapin', 1, 12),
   ('Malika', 'Toucouleur', 2, 3),
-  ('Sharifa', 'Menhar', 3, 1),
-  ('Stephan', 'Zabrasky', 4, 5),
-  ('Shaban', 'Mouarad', 3, 5);
+  ('Sharifa', 'Menhar', 2,null ),
+  ('Stephan', 'Zabrasky', 3, 5),
+  ('Kako', 'Fenicolapo', 3,null),
+  ('Tene', 'Boureimi', 4, 7),
+  ('Jack', 'LeChien', 4,null),
+  ('Franck', 'Lebossu', 5, 9),
+  ('Chen', 'LI', 5,null),
+  ('Awa', 'Farida', 6, 11),
+  ('Lesli', 'Vermont', 6,null),
+  ('Shaban', 'Mouarad', 1,null);
