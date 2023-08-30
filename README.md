@@ -1,8 +1,10 @@
 
-# Project: Note Taker
+# Project: EMPLOPYEE TRACKER
+
  ![License Badge](https://img.shields.io/badge/License-MIT%20License-blue)
 
  https://github.com/bchamidou/Employee_Tracker
+
  https://streamable.com/446fto
 
 
@@ -36,9 +38,12 @@ The installation can be completed by following these instructions:
    
 ## Usage 
 ***
-To execute the script, open a Git terminal on the main project folder (cloned folder) Run the following command: node server.js.
+To execute the script, open a Git terminal on the main project folder (cloned folder) Run the following command: npm start
 
- 
+![Alt text](assets/img/Fig_1.png)
+![Alt text](assets/img/Fig_2.png)
+![Alt text](assets/img/Fig_3.png)
+
 
 ## Contributing
 ***
@@ -55,7 +60,7 @@ The Contributor Covenant Code of Conduct can be found in the following address:
 ***
 
 Technologies used: 
- - Node.js,
+ - Node.js
  - Inquirer (https://www.npmjs.com/package/inquirer/v/8.2.4)
  - MySQL (https://www.npmjs.com/package/mysql2)
     
